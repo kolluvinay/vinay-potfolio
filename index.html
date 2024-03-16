@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Potfolio website</title> 
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/potfolio.jpg" class="logo" width="200" height="100">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Knowledge</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact me</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p style="color: white;"">My Potfolio</p>
+                <h1 style="color: white;">Hi, I'm <span>Kollu Vinay</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutus.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p style="color: white;">I'am kollu vinay.I am studyng btech 3rd year at KL University,vijayawada.I completed intermediate at Sri Chaythanya Jr College in Thirupati with the percentage of 83%. And I completed 10th class at Goutham Talent School in thirupati with the percentage of 93%.</p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+                <p class="tab-links"onclick="opentab('certifications')">Certifications</p>
+
+
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+               <ul>
+                <li><span >C</span><br>Basic of C language</li>
+                <li><span>JAVA</span><br>Basic of Java language and little bit of Data Structure</li>
+                <li><span>JAVA FULL STACK</span><br>Dynamic web project</li>
+                <li><span>WEB DEVELOPMENT</span><br>web development using HTML,CSS for frontend.Backend as Java</li>
+               </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                 <li><span >2006-2010</span><br>Arunodhaya English Medium High School</li>
+                 <li><span>2010-2013</span><br>Sambram English Medium High School</li>
+                 <li><span>2013-2019</span><br>Gawtham Talent School</li>
+                 <li><span >2019-2021</span><br>Sri chaithanya jr college</li>
+                 <li><span >2021-2025</span><br>KL University</li>
+              
+                </ul>
+             </div>
+             <div class="tab-contents"id="certifications">
+                <ul>
+                 <li><span >AWS</span><br>AWS Cloud Partitioner</li>
+                 <li><span>RED HAT</span><br>Red hat basic certification</li>
+                 <li><span>Oracil</span><br></li>
+                </ul>
+             </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="potfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/awscp.jpeg">
+                    <div class="layer">
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                        <a href="images/awscp.pdf" download class="btn btnlist">DOWNLOAD</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/redhat.png">
+                    <a href="images/redhat.pdf"download class="btn btnlist">DOWNLOAD</a>
+                </div>
+                <div class="work">
+                    <img src="images/oricacle.png">
+                    <a href="images/oricacle.pdf"download class="btn btnlist">DOWNLOAD</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- skill section -------------------------------------------------------->
+    <div id="skills" class="skills">
+        <div class="main-text scroll-scale">
+            <span style="color: aliceblue;">technical and professional</span>
+            <h2 >My Skills</h2>
+        </div>
+
+        <div class="skill-main">
+            <div class="skill-left scroll-scale">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Javascript</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="javascript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CEH</p>
+                        <p>62%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="ceh"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skill-right scroll-scale">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="55"></div>
+                        <div class="text">
+                            <big>55%</big>
+                            <small>Project Management</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Comiunication</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2  class="sub-title"><center>Contact Me</center></h2>
+                <div class="work-list">
+                    <div class="work">
+                <p style="color: aliceblue;"> kolluvinay2004@gmail.com</p>
+                <p style="color: aliceblue;">6304631566</p>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <!-- Add font awesome icons -->
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+                <div class="work-list">
+                    <div class="work">
+                   <div>
+                    <a href="" class="btn btn2">My Resume</a>
+                   </div>
+                    </div>
+                </div>
+            </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Mail" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+</body>
+</html>
